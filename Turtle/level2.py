@@ -11,7 +11,7 @@ def fill_square(t, size):
 def spiral(t, size):
     for i in range(50):
         t.forward(size)
-        t.right(91)
+        t.right(100)
         size += 5
 def rosette_pattern(t, petals):
     colors = ["red", "orange", "yellow", "green", "blue", "violet"]
@@ -20,6 +20,17 @@ def rosette_pattern(t, petals):
         t.circle(80)
         t.right(10)
         
+def star(t, size):
+    for _ in range(5):
+        t.forward(size)
+        t.right(144)
+
+def fractal_star(t, size):
+    for i in range(12):
+        star(t, size)
+        t.right(30)
+
+     
 t = turtle.Turtle()
-rosette_pattern(t, 36)
+spiral(t, 100)
 turtle.done()
