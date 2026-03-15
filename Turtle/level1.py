@@ -32,7 +32,12 @@ def circle_manual(t):
     for i in range(360):
         t.forward(1)   # draw a tiny 1px line
         t.right(1)     # turn right by 1 degree
+        
+def draw_triangle(t, size):
+    for i in range(3):
+        t.forward(size)
+        t.left(120)
 
 t = turtle.Turtle()
-circle_manual(t)
+draw_triangle(t, 100)
 turtle.done()
