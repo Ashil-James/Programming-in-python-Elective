@@ -9,7 +9,7 @@ border = cv2.copyMakeBorder(
     bottom = 50,
     left = 50,
     right = 50,
-    borderType = cv2.BORDER_CONSTANT,
+    borderType = cv2.BORDER_REFLECT,
     value = [0, 0, 255]
 )
 
