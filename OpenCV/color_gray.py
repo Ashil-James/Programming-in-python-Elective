@@ -13,9 +13,8 @@ cv2.imwrite('gray_to_color.jpg', gray_bgr)
 
 # With false color (heatmap style)
 heatmap = cv2.applyColorMap(gray, cv2.COLORMAP_JET)
-cv2.imshow('False Color', heatmap)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+cv2.imwrite('FalseColor.jpg', heatmap)
+
 
 
 
