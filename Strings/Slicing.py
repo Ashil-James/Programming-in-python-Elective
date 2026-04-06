@@ -8,7 +8,7 @@ print("racecar" == "racecar"[::-1])  # True
 
 # Remove first / last character
 s[1:]      # "ello, World!"
-s[:-1]     # "Hello, World"
+s[:-1]     # "Hello, World!"
 
 # Get every other character
 s[::2]     # "Hlo ol!"
