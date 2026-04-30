@@ -1,5 +1,6 @@
 s = "I like Java"
 print(s.replace("Java", "Python"))
 
-st = "banana"
-print(st.replace("a", "x", 1))
+st = "aaaaaaaaaaaaa"
+print(st.count("aa"))
+print(len(st))

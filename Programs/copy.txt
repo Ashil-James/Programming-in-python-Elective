@@ -1,0 +1,4 @@
+content of 
+first
+file 
+which will be copied to another file
