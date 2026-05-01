@@ -12,7 +12,7 @@ class Employee:
 
 class Manager(Employee):
     def __init__(self, name, base_salary, bonus):
-        super().__init__(name, base_salary)  # ✅ parent handles name & salary
+        super().__init__(name, base_salary)  # parent handles name & salary
         self.bonus = bonus
 
     def calculate_salary(self):

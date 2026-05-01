@@ -13,6 +13,7 @@ def spiral(t, size):
         t.forward(size)
         t.right(100)
         size += 5
+        
 def rosette_pattern(t, petals):
     colors = ["red", "orange", "yellow", "green", "blue", "violet"]
     for i in range(petals):
