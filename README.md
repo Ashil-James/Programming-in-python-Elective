@@ -4,22 +4,22 @@ This repository contains Python practice programs and mini projects created for 
 
 ## What's Inside
 
-| Folder | Contents |
-| --- | --- |
-| `Programs/` | General Python exercises such as leap year checking, palindrome logic, expression evaluation, scope examples, and math programs. |
-| `Strings/` | String operations including slicing, case conversion, replacement, splitting/joining, counting, and validation methods. |
-| `Lists/` | List operations such as adding, removing, extending, searching, sorting, copying, and repetition. |
-| `tuple/` | Tuple basics, tuple methods, and tuple-related practice programs. |
-| `Sets/` | Basic set operations in Python. |
-| `Dictionary/` | Dictionary activities and nested dictionary examples. |
-| `Date_Time/` | Date formatting, date/time usage, and date arithmetic. |
-| `ExceptionHandling/` | `try-except`, `else`, `finally`, custom exceptions, and error-handling examples. |
-| `FileHandling/` | Reading, writing, copying, and modifying file contents. |
-| `Oops/` | Object-oriented programming concepts including inheritance, polymorphism, encapsulation, abstract methods, and dunder methods. |
-| `Tkinter/` | GUI programs built with Python's built-in Tkinter library. |
-| `BreezyPythonGui/` | GUI examples using the `breezypythongui` package, including a calculator and unit converter. |
-| `Turtle/` | Turtle graphics drawings and level-based drawing programs. |
-| `OpenCV/` | Image processing examples such as grayscale conversion, borders, blurring, and image augmentation. |
+| Folder               | Contents                                                                                                                         |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `Programs/`          | General Python exercises such as leap year checking, palindrome logic, expression evaluation, scope examples, and math programs. |
+| `Strings/`           | String operations including slicing, case conversion, replacement, splitting/joining, counting, and validation methods.          |
+| `Lists/`             | List operations such as adding, removing, extending, searching, sorting, copying, and repetition.                                |
+| `tuple/`             | Tuple basics, tuple methods, and tuple-related practice programs.                                                                |
+| `Sets/`              | Basic set operations in Python.                                                                                                  |
+| `Dictionary/`        | Dictionary activities and nested dictionary examples.                                                                            |
+| `Date_Time/`         | Date formatting, date/time usage, and date arithmetic.                                                                           |
+| `ExceptionHandling/` | `try-except`, `else`, `finally`, custom exceptions, and error-handling examples.                                                 |
+| `FileHandling/`      | Reading, writing, copying, and modifying file contents.                                                                          |
+| `Oops/`              | Object-oriented programming concepts including inheritance, polymorphism, encapsulation, abstract methods, and dunder methods.   |
+| `Tkinter/`           | GUI programs built with Python's built-in Tkinter library.                                                                       |
+| `BreezyPythonGui/`   | GUI examples using the `breezypythongui` package, including a calculator and unit converter.                                     |
+| `Turtle/`            | Turtle graphics drawings and level-based drawing programs.                                                                       |
+| `OpenCV/`            | Image processing examples such as grayscale conversion, borders, blurring, and image augmentation.                               |
 
 ## Requirements
 
@@ -108,6 +108,6 @@ python imageAugmentation.py
 4. Explore GUI programming with `Tkinter/` and `BreezyPythonGui/`.
 5. Try visual programming examples in `Turtle/` and image processing in `OpenCV/`.
 
-## Author
+## Author: Ash
 
 Maintained as part of the Python elective coursework.
